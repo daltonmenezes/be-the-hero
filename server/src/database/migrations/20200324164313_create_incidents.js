@@ -5,7 +5,7 @@ exports.up = function (knex) {
     
     table.string('title').notNullable()
     table.string('description').notNullable()
-    table.decimal('value').notNullable()
+    table.decimal('amount').notNullable()
     
     table.string('ngo_id').notNullable()
 

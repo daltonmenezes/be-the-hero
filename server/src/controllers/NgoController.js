@@ -14,7 +14,7 @@ module.exports = {
       email,
       whatsapp,
       city,
-      uf
+      stateABB
     } = req.body
   
     const id = randomBytes(4).toString('HEX')
@@ -25,7 +25,7 @@ module.exports = {
       email,
       whatsapp,
       city,
-      uf
+      stateABB
     })
   
     return res.json({ id })

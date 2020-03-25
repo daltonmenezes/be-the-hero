@@ -22,7 +22,7 @@ module.exports = {
           'ngos.email',
           'ngos.whatsapp',
           'ngos.city',
-          'ngos.uf'
+          'ngos.stateABB'
         ])
 
     res.header('X-Total-Count', count['count(*)'])
@@ -31,14 +31,14 @@ module.exports = {
   },
 
   async create (req, res) {
-    const { title, description, value } = req.body    
+    const { title, description, amount } = req.body    
     const ngo_id = req.headers.authorization
 
     const [id] =
       await db('incidents').insert({
         title,
         description,
-        value,
+        amount,
         ngo_id
       })
 
