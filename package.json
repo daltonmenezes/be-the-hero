@@ -1,0 +1,22 @@
+{
+  "name": "be-the-hero",
+  "version": "0.0.1",
+  "description": "App to help NGOs built with ReactJS, React Native, Node.js and more.",
+  "main": "",
+  "scripts": {
+    "dev:server": "cd server && yarn start:dev",
+    "dev:server:db": "cd server && yarn start:db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daltonmenezes/be-the-hero.git"
+  },
+  "keywords": [],
+  "author": "Dalton Menezes <daltonmenezes@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daltonmenezes/be-the-hero/issues"
+  },
+  "homepage": "https://github.com/daltonmenezes/be-the-hero#readme",
+  "devDependencies": {}
+}

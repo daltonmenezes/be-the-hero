@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js",
+    "start:db": "npx knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "Dalton Menezes <daltonmenezes@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
