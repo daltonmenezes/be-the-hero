@@ -45,6 +45,29 @@ module.exports = {
     res.json({ id })   
   },
 
+  async update (req, res) {
+    const { id } = req.params
+    const ngo_id = req.headers.authorization
+
+    const incident =
+      await db('incidents')
+        .where('id', id)
+        .select('ngo_id')
+        .first()
+
+    const notAuthorized = incident.ngo_id !== ngo_id
+    
+    if (notAuthorized) {
+        return res.status(401).json({
+          error: 'Request not allowed.'
+        })
+    }
+
+    await db('incidents').where('id', id).update({ ...req.body })
+
+    return res.status(204).send()
+  },
+
   async delete (req, res) {
     const { id } = req.params
     const ngo_id = req.headers.authorization
