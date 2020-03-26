@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "start:dev": "nodemon src/index.js",
-    "start:db": "npx knex migrate:latest"
+    "build": "npx knex migrate:latest"
   },
   "keywords": [],
   "author": "Dalton Menezes <daltonmenezes@outlook.com>",
