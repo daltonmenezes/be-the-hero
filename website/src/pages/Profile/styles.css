@@ -1,0 +1,120 @@
+.profile-container {
+  display: block !important;  
+  margin: 32px auto !important;
+  padding: 30px;
+}
+
+.profile-container header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container header span {
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+.profile-container header img {
+  height: 64px;
+}
+
+.profile-container header a {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.profile-container header button {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  border-top: #FFF;
+  background: #f9f9f9;
+  border-left: #FFF;
+  margin-left: 16px;
+  transition: all .5s;
+}
+
+.profile-container header button:hover {
+  border-color: #fff;
+  box-shadow: 1px 2px 10px #e01e4157;
+}
+
+.profile-container h1 {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.profile-container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  margin-bottom: 30px;
+}
+
+.profile-container ul li {
+  background: #f9f9f9;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.profile-container ul li .actions {
+  top: 24px;
+  right: 24px;
+  position: absolute;
+}
+
+.profile-container ul li button {
+  border: none;
+  margin-left: 10px;
+  background: transparent;
+  position: relative;
+}
+
+.profile-container ul li button:hover {
+  opacity: .8;
+}
+
+.profile-container ul li strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+}
+
+.profile-container ul li p + strong {
+  margin-top: 32px;
+}
+
+.profile-container ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+@media (max-width: 580px) {
+  .profile-container header {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 24px;
+  }
+
+  .profile-container header img,
+  .profile-container header span,
+  .profile-container header a {
+    margin: 0 auto;
+  }
+
+  .profile-container header button {
+    right: 0;
+    margin-right: .6rem;
+    position: absolute;
+  }
+
+  .profile-container ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 24px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.register-container {
+  align-items: center;
+}
+
+.register-container .content form .input-group {
+  display: flex;
+}
+
+.register-container .content form .input-group input + input {
+  margin-left: 8px;
+}
+
+@media (max-width: 880px) {
+  .register-container .content form .input-group {
+    flex-flow: column;
+  }
+
+  .register-container .content form .input-group input + input {
+    margin-left: unset;
+    min-width: 100%;
+  }
+}

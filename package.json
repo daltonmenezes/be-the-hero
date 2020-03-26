@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "dev:server": "cd server && yarn start:dev",
-    "dev:server:db": "cd server && yarn start:db"
+    "dev:server:build": "cd server && yarn build",
+    "dev:web": "cd website && yarn start"
   },
   "repository": {
     "type": "git",
