@@ -1,9 +1,6 @@
 # dependencies
 /node_modules
 
-# database
-*.sqlite
-
 # misc
 .DS_Store
 .env
