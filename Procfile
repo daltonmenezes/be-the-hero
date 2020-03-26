@@ -1,1 +1,1 @@
-web: node server/src/index.js
+web: cd server && npm install && node src/index.js
