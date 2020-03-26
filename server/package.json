@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "start:dev": "nodemon src/index.js",
     "start:db": "npx knex migrate:latest"
   },
