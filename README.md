@@ -20,6 +20,11 @@ After cloning this repo:
   - Run ```yarn``` or ```npm i``` in the ```website``` folder
   - Go back to the root folder
   - Run ```yarn dev:web``` or ```npm run dev:web``` to up the project
+### Mobile
+  - Run ```yarn``` or ```npm i``` in the ```mobile``` folder
+  - Update the ```baseURL``` at ```src/config/index.js```
+  - Go back to the root folder
+  - Run ```yarn dev:mobile``` or ```npm run dev:mobile``` to up the project
 
 # License
 [MIT License](/LICENSE)
