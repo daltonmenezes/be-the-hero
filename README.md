@@ -42,6 +42,20 @@ After cloning this repo:
 # Tests
 ### Server
   - Run ```yarn test:server``` at the root folder
+  
+  
+# Improvements
+I made some improvements like:
+
+- Making the possibility to edit the incidents
+- Adding neumorphism on parts of the website
+- Adding the generated ID from registration automatically in the login field
+- Adding the validation of all necessary routes
+- Adding more tests
+- Improving the tests architecture and organization
+- Improving the code architecture and organization
+- Deploying and setting the website on Netlify
+- Deploying and setting the server on Heroku
 
 # License
 [MIT License](/LICENSE)
