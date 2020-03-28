@@ -16,7 +16,7 @@
 [Server](https://be-the-hero-app.herokuapp.com/ngos)
 
 ## Download
-<a href="https://github.com/daltonmenezes/be-the-hero/releases/download/v1.0.0/dalton-menezes-be-the-hero"><img src=".github/android-icon.png" alt="download apk for android" width="50"/></a>
+<a href="https://github.com/daltonmenezes/be-the-hero/releases/download/v1.0.0/dalton-menezes-be-the-hero.apk"><img src=".github/android-icon.png" alt="download apk for android" width="50"/></a>
 
 # Development setup
 
