@@ -1,5 +1,5 @@
-const { randomBytes } = require('crypto')
 const db = require('../database/connection')
+const generateId = require('../utils/generateId')
 
 module.exports = {
   async index (req, res) {
@@ -17,7 +17,7 @@ module.exports = {
       stateABB
     } = req.body
   
-    const id = randomBytes(4).toString('HEX')
+    const id = generateId(4)
   
     await db('ngos').insert({
       id,
