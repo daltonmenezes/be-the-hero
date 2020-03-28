@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "start:dev": "nodemon src/index.js",
-    "build": "npx knex migrate:latest"
+    "build": "npx knex migrate:latest",
+    "test": "MODE=test PORT=3535 jest --runInBand"
   },
   "keywords": [],
   "author": "Dalton Menezes <daltonmenezes@outlook.com>",
@@ -20,6 +21,8 @@
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "jest": "^25.2.3",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
   }
 }

@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+# database
+test.sqlite
+
 # misc
 .DS_Store
 .env

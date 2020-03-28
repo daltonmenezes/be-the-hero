@@ -7,7 +7,8 @@
     "dev:server": "cd server && yarn start:dev",
     "dev:server:build": "cd server && yarn build",
     "dev:web": "cd website && yarn start",
-    "dev:mobile": "cd mobile && yarn start"
+    "dev:mobile": "cd mobile && yarn start",
+    "test:server": "cd server && yarn test"
   },
   "repository": {
     "type": "git",
