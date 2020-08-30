@@ -3,7 +3,6 @@
     "name": "Be the Hero",
     "slug": "mobile",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
